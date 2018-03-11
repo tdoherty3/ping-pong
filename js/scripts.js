@@ -1,8 +1,9 @@
 $(document).ready(function() {
-
-
-var number parseInt(inputtedNumber)
-
-    event.preventDefault();
+$("form#ping-pong").submit(function(event) {
+  event.preventDefault();
+var number = parseInt($("input#number").val());
+console.log(number)
+var result = number;
+$("#result").text(result);
   });
 });
