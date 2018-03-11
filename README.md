@@ -34,7 +34,7 @@ _The results array is presented as an ordered list_
 
 ## GitHub Link
 
-_https://github.com/tdoherty3/Oregon-vacation-quiz.git_
+_https://github.com/tdoherty3/ping-pong.git_
 
 ## gh-pages link
 
