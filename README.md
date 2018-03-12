@@ -45,11 +45,14 @@ _ADD Git Branch_
 * _Access and open / create an account at the GitHub site._
 * _Clone the project repository (see GitHub link above) to a directory on your local computer._
 * _Use a command line interface (such as terminal on Mac) and a source code editor such as Atom to access and view files._
-* _Or, you may also access gh-pages to view the page [https://tdoherty3.github.io/Oregon-vacation-quiz/]()._
+* _Or, you may also access gh-pages to view the page [tdoherty.github.io/ping-pong]_
 
 ## Known Bugs
 
-_... There are no other **_known_** bugs!_
+_There are several specifications that are incomplete including:_
+* _for loop to create "ping", "pong", and "pingpong" output_
+* _correct syntax to show results as an ordered list_
+_See notes in the scripts.js file that describe what has been tried on these._
 
 ## Support and contact details
 
