@@ -45,7 +45,7 @@ _ADD Git Branch_
 * _Access and open / create an account at the GitHub site._
 * _Clone the project repository (see GitHub link above) to a directory on your local computer._
 * _Use a command line interface (such as terminal on Mac) and a source code editor such as Atom to access and view files._
-* _Or, you may also access gh-pages to view the page [tdoherty.github.io/ping-pong]_
+* _Or, you may also access gh-pages to view the page [tdoherty3.github.io/ping-pong]_
 
 ## Known Bugs
 
