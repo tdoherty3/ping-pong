@@ -38,7 +38,7 @@ _https://github.com/tdoherty3/ping-pong.git_
 
 ## gh-pages link
 
-_ADD Git Branch_
+_https://tdoherty3.github.io/ping-pong_
 
 ## Setup/Installation Requirements
 
@@ -49,10 +49,8 @@ _ADD Git Branch_
 
 ## Known Bugs
 
-_There are several specifications that are incomplete including:_
-* _for loop to create "ping", "pong", and "pingpong" output_
-* _correct syntax to show results as an ordered list_
-_See notes in the scripts.js file that describe what has been tried on these._
+_The page runs to the specs._
+_Further development can include making the page automatically reset._
 
 ## Support and contact details
 
