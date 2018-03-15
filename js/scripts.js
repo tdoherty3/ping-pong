@@ -1,57 +1,29 @@
+var counter = function(number){
+  var array = [ ]
+  for (var i = 1; i <= number; i++) {
+    if (i % 15 === 0){
+      array.push(" " + "pingpong");
+    } else if (i % 5 === 0){
+      array.push(" " + "pong");
+    } else if (i % 3 === 0){
+      array.push(" " + "ping");
+    } else
+      array.push(" " + i);
+    }
+  };
+  return array;
+};
+
+
 $(document).ready(function() {
 $("form#ping-pong").submit(function(event) {
   event.preventDefault();
-var number = parseInt($("input#number").val());
-console.log(number)
-var array = [ ];
-console.log(array)
+  var number = parseInt($("input#number").val());
+  var userOutput = counter(number)
+  console.log(number)
 
-
-for (var i = 1; i <= number; i++) {
-  array.push(" " + i);
-};
-
-$("#result").text(array);
+    for (var i = 0; i < userOutput.length; i++){
+      $("#result").append("<li>" + userOutput[i]) + "</li>");
+    }
   });
 });
-
-
-// Attempts at getting the array into an ordered list, in js:
-
-// array.push(<ol> " " + i </ol>);
-
-// array += ("<ol>"  + array + "</ol>");
-
-// or in html
-
-// $("#result").text("<ol>"array"</ol>");
-
-// $("#result").text(<ol>array</ol>);
-
-
-
-
-// Attempts at for loops:
-
-//for (var i = 1; i <= number; i++) {
-//  if (i % 3 === 0){
-//  array.push(" " + "ping");
-//  } else if (i % 5 === 0){
-//    array.push(" " + "pong");
-//  } else if (i % 3 === 0 && i % 5 === 0);
-//    array.push(" " + "pingpong");
-//  } else
-//    array.push(" " + i);
-//  };
-
-
-//for (var i = 1; i <= number; i++) {
-  //if (i !% 3 === 0 && i !% 5 === 0){
-    //array.push(" " + i);
-  //} else if (i % 3 === 0){
-    //array.push(" " + "ping");
-  //} else if (i % 5 === 0){
-    //array.push(" " + "pong");
-  //} else if (i % 3 === 0 && i % 5 === 0);
-  //array.push(" " + "pingpong");
-//};
