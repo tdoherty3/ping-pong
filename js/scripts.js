@@ -1,13 +1,13 @@
-var counter = function(number){
-  var array = [ ]
+var counter = function(number) {
+  var array = [ ];
   for (var i = 1; i <= number; i++) {
     if (i % 15 === 0){
       array.push(" " + "pingpong");
-    } else if (i % 5 === 0){
+    } else if (i % 5 === 0) {
       array.push(" " + "pong");
-    } else if (i % 3 === 0){
+    } else if (i % 3 === 0) {
       array.push(" " + "ping");
-    } else
+    } else {
       array.push(" " + i);
     }
   };
@@ -22,8 +22,8 @@ $("form#ping-pong").submit(function(event) {
   var userOutput = counter(number)
   console.log(number)
 
-    for (var i = 0; i < userOutput.length; i++){
-      $("#result").append("<li>" + userOutput[i]) + "</li>");
+    for (var i = 0; i < userOutput.length; i++) {
+      $("#result").append("<li>" + userOutput[i] + "</li>");
     }
   });
 });
